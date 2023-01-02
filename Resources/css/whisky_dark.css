@@ -1,0 +1,89 @@
+:root {
+    /* Dark Mode Colors */
+    --text-color-d: white;
+    --fg-color1-d: #2e3043;
+    --fg-color2-d: #3f466a;
+    --fg-color3-d: #5d5f6f;
+    --fg-color4-d: #15161b;
+
+}
+body {
+    text-align: center;
+    background-color: var(--fg-color4-d);
+    color: var(--text-color-d);
+    margin: 0;
+}
+input {
+    text-align: center;
+}
+
+.canvasDiv {
+    text-align: center;
+    padding: 1em;
+}
+
+/* Nav Bar */
+.navbar {
+    width: 100%;
+    background-color: var(--fg-color1-d);
+    overflow: auto;
+}
+.navbar a:link {
+    float: left;
+    padding: 0.7em;
+    color: var(--text-color-d);
+    text-decoration: none;
+    font-size: 1em;
+}
+.navbar a:hover {
+    background-color: var(--fg-color3-d);
+}
+.navbar a:visited {
+    color: inherit;
+}
+
+.navbar_main{
+    background-color: var(--fg-color2-d);
+}
+
+/* Tiles */
+.tileFlex {
+    display: flex;
+    flex-wrap: wrap;
+}
+.tile {
+    background-color: var(--fg-color1-d);
+    flex: 1 0 21%;
+    margin:0.25rem;
+    border-width: 0.25em;
+    padding-bottom: 0.5rem;
+    text-align: center;
+}
+.linkTileTitle {
+    background-color: var(--fg-color3-d);
+    margin-top: 0;
+    padding: 0.25em 1em;
+    text-align: center;
+    white-space: nowrap;
+
+}
+.tile a:link {
+    background-color: var(--fg-color2-d);
+    color: var(--text-color-d);
+    display: block;
+    padding: 0.5em 1em;
+    text-align: center;
+    text-decoration: none;
+    white-space: nowrap;
+    border-radius: 0.5em;
+
+    margin: 0.5em 2em;
+}
+
+.tile a:visited {
+    color: inherit;
+}
+
+.tile a:hover {
+    background-color: var(--fg-color3-d);
+}
