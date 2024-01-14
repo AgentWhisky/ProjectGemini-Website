@@ -87,3 +87,11 @@ input {
 .tile a:hover {
     background-color: var(--fg-color3-d);
 }
+
+.dev-banner {
+    background-color: #f8d7da; /* Use a color that stands out */
+    color: #721c24; /* Choose a text color for good visibility */
+    padding: 10px; /* Adjust padding as needed */
+    text-align: center; /* Center the text */
+    font-weight: bold; /* Make the text bold */
+}
